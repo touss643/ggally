@@ -8,6 +8,7 @@ ggcorr(
   data,
   method = c("pairwise", "pearson"),
   cor_matrix = NULL,
+  remove_zero_corr = TRUE,
   nbreaks = NULL,
   digits = 2,
   name = "",
